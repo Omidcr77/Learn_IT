@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Style the navigation menu */
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+header nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the dashboard */
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+  padding: 10px;
+}
+
+.dashboard-item {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-item h3 {
+  margin-top: 0;
+}
+
+.dashboard-item p {
+  margin-bottom: 0;
+}
+
+.dashboard-item button {
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.dashboard-item button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  background-color: #2c3e50;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2c3e50;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+
+#hero {
+  background-image: url('image2.jpg');
+  background-size: cover;
+  color: rgb(4, 3, 3);
+  padding: 100px;
+  text-align: center;
+  background-color: #2c3e50;
+}
+
+#hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#hero button {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  color: rgb(244, 230, 230);
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#courses {
+  margin-top: 50px;
+}
+
+#courses h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#courses ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#courses li {
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  flex-basis: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#courses li:last-child {
+  margin-right: 0;
+}
+
+#courses li h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#courses li p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+#courses li button {
+  background-color: #5e5e5e;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+#courses li button:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+#about {
+  background-color: #292929;
+  color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#contact{
+  background-color: #292929;
+  color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+#contact h2{
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+#contact li{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> IT Login Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Login IT</h1>
+	<div class="form-container">
+		<form method="post">
+			<label for="username"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="username" required>
+
+			<label for="password"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required>
+
+			<button type="submit">Login</button>
+
+			<div class="signup-link">
+				<p>Don't have an account?</p> <a href="../sign_up/sign_up.html">Sign up</a> now.
+			</div>
+		</form>
+		<?php if (isset($error)): ?>
+			<p><?php echo $error ?></p>
+		<?php endif ?>
+	</div>
+</body>
+</html>
